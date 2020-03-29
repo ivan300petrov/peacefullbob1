@@ -31,12 +31,12 @@
 			}
 
 			.slider {
-				width: 50%;
-				margin: 100px auto;
+				width: 100%;
+				margin: 0px 0px;
 			}
 
 			.slick-slide {
-				margin: 0px 20px;
+				margin: 10px 10px;
 			}
 
 			.slick-slide img {
@@ -1242,68 +1242,111 @@
 					</ul>
 				</div>
 			</section>
-			<article id="gallery" class="regular slider">
-				<div class="">
-					<a class="gallery-link" href="img/gallery-1.jpg">
-						<img src="img/gallery-1.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-2.jpg">
-						<img src="img/gallery-2.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-3.jpg">
-						<img src="img/gallery-3.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-1.jpg">
-						<img src="img/gallery-1.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-2.jpg">
-						<img src="img/gallery-2.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-3.jpg">
-						<img src="img/gallery-3.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-1.jpg">
-						<img src="img/gallery-1.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-2.jpg">
-						<img src="img/gallery-2.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-3.jpg">
-						<img src="img/gallery-3.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-1.jpg">
-						<img src="img/gallery-1.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-2.jpg">
-						<img src="img/gallery-2.jpg" />
-					</a>
-				</div>
-				<div class="">
-					<a class="gallery-link" href="img/gallery-3.jpg">
-						<img src="img/gallery-3.jpg" />
-					</a>
-				</div>
+
+			<article id="gallery" class="gallery  variable">
+				<a class="gallery-link  single-item" href="img/gallery-1.jpg">
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-2.jpg">
+					<img height="1400" src="img/gallery-2.jpg" width="1200" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-3.jpg">
+					<img height="1200" src="img/gallery-3.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-1.jpg">
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-2.jpg">
+					<img height="1400" src="img/gallery-2.jpg" width="1200" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-3.jpg">
+					<img height="1200" src="img/gallery-3.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-1.jpg">
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-2.jpg">
+					<img height="1400" src="img/gallery-2.jpg" width="1200" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-3.jpg">
+					<img height="1200" src="img/gallery-3.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-1.jpg">
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-2.jpg">
+					<img height="1400" src="img/gallery-2.jpg" width="1200" />
+				</a>
+				<a class="gallery-link single-item" href="img/gallery-3.jpg">
+					<img height="1200" src="img/gallery-3.jpg" width="1400" />
+				</a>
+			</article>
+			<div class="gallery-popup variable slider ">
 				<!--
+					<div id="arrow-left-gallery" class="arrow arrow-left"></div>
+					<button class="close-button"></button>
+					<img src="#" alt="" />
+					<div
+						id="arrow-right-gallery"
+						class="arrow arrow-right"
+					></div>
+				-->
+				<div>
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</div>
+				<div>
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</div>
+				<div>
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</div>
+				<div>
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</div>
+				<div>
+					<img height="1000" src="img/gallery-1.jpg" width="1400" />
+				</div>
+			</div>
+
+			<!--
+			<article id="gallery" class="variable slider gallery">
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-1.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-2.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-3.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-1.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-2.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-3.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-1.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-2.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-3.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-1.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-2.jpg" />
+				</div>
+				<div class="gallery-item gallery-link">
+					<img src="img/gallery-3.jpg" />
+				</div>
+
 				<div class="gallery-popup">
 					<div id="arrow-left-gallery" class="arrow arrow-left"></div>
 					<button class="close-button"></button>
@@ -1313,8 +1356,8 @@
 						class="arrow arrow-right"
 					></div>
 				</div>
-			-->
-			</article>
+			
+			</article>-->
 			<section>
 				<div id="contact" class="contacts">
 					<div class="contact-info">
@@ -1424,6 +1467,6 @@
 			$(".single-item").slick();
 		</script>
 		    q -->
-		<script src="js/qwqe.js" type="text/javascript"></script>
+		<script src="js/main.min.js" type="text/javascript"></script>
 	</body>
 </html>
