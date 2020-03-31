@@ -1,135 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Барабанщик спб</title>
-		<link rel="stylesheet" href="css/style.min.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Барабанщик спб</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="main-wrapper">
+    <div class="menu-background"></div>
+    <div class="navigation">
+        <div class="burger-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <span class="hand">left</span>
+        <div class="decorative-line"></div>
+        <nav class="navigation-list">
+            <ul>
+                <li><a href="#me">Обо мне</a></li>
+                <li><a href="#gallery">Фото</a></li>
+                <li><a href="#video">Видео</a></li>
+                <li><a href="#training">Обучение</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="monkey"></div>
+    </div>
 
-		<!-- Добавляем стили из CDN -->
-
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="./slick-carousel/slick/slick.css"
-		/>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="./slick-carousel/slick/slick-theme.css"
-		/>
-		<!-- Добавляем тему по умолчанию из CDN -->
-		<style type="text/css">
-			html,
-			body {
-				margin: 0;
-				padding: 0;
-			}
-
-			* {
-				box-sizing: border-box;
-			}
-
-			.slider {
-				width: 100%;
-				margin: 0px 0px;
-			}
-
-			.slick-slide {
-				margin: 10px 10px;
-			}
-
-			.slick-slide img {
-				width: 100%;
-			}
-
-			.slick-prev:before,
-			.slick-next:before {
-				color: black;
-			}
-
-			.slick-slide {
-				transition: all ease-in-out 0.3s;
-				opacity: 0.2;
-			}
-
-			.slick-active {
-				opacity: 0.5;
-			}
-
-			.slick-current {
-				opacity: 1;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="main-wrapper">
-			<div class="menu-background"></div>
-			<div class="navigation">
-				<div class="burger-icon">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-				<span class="hand">left</span>
-				<div class="decorative-line"></div>
-				<nav class="navigation-list">
-					<ul>
-						<li><a href="#me">Обо мне</a></li>
-						<li><a href="#gallery">Фото</a></li>
-						<li><a href="#video">Видео</a></li>
-						<li><a href="#training">Обучение</a></li>
-						<li><a href="#contact">Контакты</a></li>
-					</ul>
-				</nav>
-				<div class="monkey"></div>
-			</div>
-
-			<div class="big-background-container">
-				<video
-					autoplay="autoplay"
-					muted=""
-					loop="loop"
-					controls="controls"
-					poster="/img/video-poster.jpg"
-				>
-					<source
-						src="img/video-bg.mp4"
-						type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-					/>
-					<source
-						src="img/video-bg.webm"
-						type='video/webm; codecs="vp8, vorbis"'
-					/>
-					<source
-						src="img/video-bg.ogv"
-						type='video/ogg; codecs="theora, vorbis"'
-					/>
-				</video>
-			</div>
-			<section class="logo-wrapper ">
-				<div class="logo">
-					<svg
-						version="1.1"
-						id="Слой_1"
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px"
-						y="0px"
-						viewBox="0 0 950 270"
-						style="enable-background:new 0 0 950 270;"
-						xml:space="preserve"
-					>
-						<style type="text/css">
-							.st0 {
-								fill: #ffffff;
-							}
-						</style>
-						<g>
-							<path
-								class="st0"
-								d="M334.3,214.6c-0.1,0.7-0.8,0.6-1.4,0.7h-0.6c-0.3-0.1-0.6-0.3-0.8-0.4c-1.3-1.3-2.8-2.1-4.3-2.8
+    <div class="big-background-container">
+        <video autoplay="autoplay" muted="" loop="loop" controls="controls" poster="/img/video-poster.jpg">
+            <source src="img/video-bg.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+            <source src="img/video-bg.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+            <source src="img/video-bg.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+        </video>
+    </div>
+    <section class="logo-wrapper ">
+            <div class="logo">
+                <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 950 270" style="enable-background:new 0 0 950 270;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M334.3,214.6c-0.1,0.7-0.8,0.6-1.4,0.7h-0.6c-0.3-0.1-0.6-0.3-0.8-0.4c-1.3-1.3-2.8-2.1-4.3-2.8
 		c-6.7-3.2-13.4-6.3-20.3-9.1c-4.5-2-9-4.1-13.6-6l-19.9-8.4c-9.5-3.9-19.2-8-28.8-11.9l-23.4-9.2c-8.3-3.4-16.7-6.6-25.1-9.7
 		l-20.4-7.6c-8.4-2.9-16.7-6-25.1-9c-3.6-1.4-7.3-2.7-10.9-4.1c-0.8-0.3-1.7-0.6-2.7-0.1c-0.4,0.8-1,1.8-0.3,2.9l-0.3,0.4
 		c-0.8,0.7-1,1.7-1.3,2.7c-1.7,5.9-3.2,11.8-5,17.6c-0.8,2.9-1.8,5.7-2.8,8.7l-0.4,2.4c-0.4,0.8-0.8,1.7-1.3,2.7l-2.5,7.7
@@ -162,11 +77,8 @@
 		c0.1,0,0.3,0,0.3,0L135.9,137.2z M137.9,129.7l-0.1,0.1l-0.4,1.4c0,0.1,0,0.1,0,0.3c0-0.1,0-0.1,0.1-0.3l0.4-1.4V129.7z
 		 M138.7,126.4c-0.1,0-0.3,0.1-0.3,0.3c-0.1,0.1-0.1,0.4-0.1,0.6h0.1c0.1-0.1,0.3-0.3,0.3-0.6C138.9,126.6,138.7,126.6,138.7,126.4z
 		 M141.9,115.4c0.6-2.1,1.3-3.9,1.5-5.9c0.1-0.6,0.6-1.1,0.4-2c-0.4,0.7-0.4,1.3-0.4,2C142.4,111.6,141.9,113.6,141.9,115.4z
-		 M150.5,84.7h0.1v-0.1L150.5,84.7z"
-							></path>
-							<path
-								class="st0"
-								d="M229.3,116.9c-0.4,0.1-1,0.3-1.4,0.6c-2.5,1.3-4.9,2.7-7.3,4.1c-2.2,1.1-4.3,2.8-6.4,4.2
+		 M150.5,84.7h0.1v-0.1L150.5,84.7z"></path>
+	<path class="st0" d="M229.3,116.9c-0.4,0.1-1,0.3-1.4,0.6c-2.5,1.3-4.9,2.7-7.3,4.1c-2.2,1.1-4.3,2.8-6.4,4.2
 		c-3.2,2.2-6.3,4.2-9.7,6c-1.5,1-3.2,1.3-5,1.1c-1.1,0-2.1-0.3-2.9-1.1l-1.4-1.4c-1.3-1.4-2-2.8-1.4-4.6V125c0-0.4-0.4-0.7-0.7-0.4
 		c-0.3,0.1-0.7,0.4-1,0.7c-1.7,1.3-3.4,2.7-5.2,3.6c-1.5,1-3.2,2-5,2.5c-0.7,0.1-1.4,0.3-2.1,0.3c-1.8,0-3.5-0.4-4.6-1.8
 		c-0.4-0.3-0.7-0.8-1.1-1.1c-1.3-1.5-1.4-3.1-1-5c0.4-1.5,1.1-3.1,2-4.3c2-3.5,4.2-7,6.9-9.9l0.4-0.6c0.3-0.3,0.6-0.6,0.8-0.4
@@ -194,11 +106,8 @@
 		c0.3-0.1,0.4-0.1,0.6-0.3C218.9,119.3,218.7,119.4,218.5,119.6z M219.1,119.2c0.1,0,0.4-0.1,0.4-0.3
 		C219.4,119,219.2,119.2,219.1,119.2z M222.3,119.6c-0.4,0.1-1.1,0.3-1.4,0.8C221.5,120.3,222,120,222.3,119.6z M223,119.3
 		c-0.3,0-0.4,0-0.6,0.3C222.7,119.6,222.7,119.4,223,119.3z M223.7,118.9c-0.3,0.1-0.6,0.1-0.7,0.3
-		C223.3,119.2,223.4,119,223.7,118.9z M224.7,118.5c0-0.1-0.1-0.1-0.3,0c0,0,0,0.1-0.1,0.3c0.1-0.1,0.3-0.1,0.3-0.1L224.7,118.5z"
-							></path>
-							<path
-								class="st0"
-								d="M300.1,26.1c-0.3,0.8-0.7,1.5-1.1,2.2v0.1h-0.4c0,0,0,0.1,0,0.3c-0.7,0.7-1.3,1.5-1.8,2.5
+		C223.3,119.2,223.4,119,223.7,118.9z M224.7,118.5c0-0.1-0.1-0.1-0.3,0c0,0,0,0.1-0.1,0.3c0.1-0.1,0.3-0.1,0.3-0.1L224.7,118.5z"></path>
+	<path class="st0" d="M300.1,26.1c-0.3,0.8-0.7,1.5-1.1,2.2v0.1h-0.4c0,0,0,0.1,0,0.3c-0.7,0.7-1.3,1.5-1.8,2.5
 		c-0.3,0.6-0.6,1.1-1,1.7h0.1c-0.1,0.3-0.4,0.4-0.4,0.7c-0.3,1-0.8,1.7-1.5,2.5c-0.3,0.1-0.4,0.6-0.6,1v0.4c-0.6,0.4-1,0.8-1.1,1.5
 		c-0.4,1.3-1.3,2.2-2,3.4c0,0.1,0.1,0.1,0.1,0.3h-0.1c-0.1,0.4-0.3,0.7-0.6,1c-1.3,1.5-2.1,3.4-2.9,5c-0.1,0-0.1,0.1-0.1,0.3
 		c-0.4,0.6-0.7,1.1-0.8,1.8c-0.7,0.6-1,1.5-1.1,2.4l-0.4,0.4c-0.1,0.1-0.3,0.4-0.3,0.7c0,0.1,0,0.3,0.1,0.3H284
@@ -281,11 +190,8 @@
 		S278.7,116.5,278.6,116.4z M278.6,116.6c0.1,0,0.1,0,0.1,0v0.1h-0.1V116.6z M279,116.4v-0.3c0,0,0.1,0,0.3,0
 		C279.1,116.1,279.1,116.2,279,116.4z M279.3,115.9v-0.3c0.1,0,0.1,0,0.3,0C279.6,115.8,279.4,115.9,279.3,115.9z M279.8,112.7
 		c1-0.6,1-0.6,1.5-1.7C280.7,111.6,280.3,112.2,279.8,112.7z M284.7,53.6h-0.4C284.5,53.5,284.6,53.5,284.7,53.6z M284.6,53.5
-		c0-0.1,0-0.1,0.1-0.3v0.4C284.7,53.5,284.6,53.5,284.6,53.5z"
-							></path>
-							<path
-								class="st0"
-								d="M324.9,113l-2.5,2.4c-0.3,0.3-0.6,0.6-1.1,0.7v-0.3c0,0.1-0.1,0.3-0.3,0.3l-0.3,0.4c-0.1,0-0.3,0.1-0.3,0.3
+		c0-0.1,0-0.1,0.1-0.3v0.4C284.7,53.5,284.6,53.5,284.6,53.5z"></path>
+	<path class="st0" d="M324.9,113l-2.5,2.4c-0.3,0.3-0.6,0.6-1.1,0.7v-0.3c0,0.1-0.1,0.3-0.3,0.3l-0.3,0.4c-0.1,0-0.3,0.1-0.3,0.3
 		c-0.1,0-0.3,0.1-0.3,0.3l-0.8,0.4c-2,2.1-4.1,4.1-6.2,6.2c-0.1,0.1-0.3,0.4-0.4,0.7c-0.1,0-0.3,0.1-0.3,0.3
 		c-0.1,0.1-0.3,0.1-0.3,0.3c0.1,0,0.1-0.1,0.3-0.3c0.1,0,0.1-0.1,0.3-0.3c0.6-0.1,0.8-0.7,1.3-1c0.4-0.6,0.8-1.1,1.5-1.4
 		c-0.1,0.6-0.6,0.8-1,1.1c-2.2,2.5-4.6,5-7,7.6c-1.4,1.7-2.8,3.2-4.3,4.8c-2.1,2.5-4.5,4.8-6.9,6.9c-0.6,0.6-1.3,1-2,1.4
@@ -351,11 +257,8 @@
 		L319.2,116.2z M318.9,118.6c-0.1,0.1-0.3,0.1-0.3,0.3C318.6,118.7,318.8,118.6,318.9,118.6z M320.2,117.1c0,0,0.1,0,0.3,0
 		c-0.4,0.7-0.8,1.1-1.5,1.4L320.2,117.1z M320.4,117.1v-0.3c0,0,0.1,0,0.3,0C320.6,116.8,320.4,116.9,320.4,117.1z M320.7,116.6
 		v-0.1c0.1,0,0.1,0,0.3,0C320.9,116.5,320.9,116.6,320.7,116.6z M321,116.1c0.1,0,0.1,0,0.3,0c-0.1,0.1-0.1,0.3-0.3,0.3V116.1z
-		 M323.2,112.2c-0.7,0.4-1.1,1-1.5,1.4C322.7,113.1,322.7,113.1,323.2,112.2z"
-							></path>
-							<path
-								class="st0"
-								d="M353.9,122c-5.3,2.5-16.7,9.4-21.3,13c-0.1,0.1-0.4,0.3-0.6,0.6c-0.8,0.6-1.1,1.3-0.8,2.2
+		 M323.2,112.2c-0.7,0.4-1.1,1-1.5,1.4C322.7,113.1,322.7,113.1,323.2,112.2z"></path>
+	<path class="st0" d="M353.9,122c-5.3,2.5-16.7,9.4-21.3,13c-0.1,0.1-0.4,0.3-0.6,0.6c-0.8,0.6-1.1,1.3-0.8,2.2
 		c0.4,1.4,0.7,2.9,1,4.3c0.8,3.6,1.4,7.3,1.5,10.9c0.1,2,0,3.8-0.1,5.6c-0.3,1.5-0.4,2.9-0.8,4.3c-0.1,0.4-0.1,0.7-0.1,1.1
 		c0,0.7-0.1,1.3-0.6,2c0-0.1,0.1-0.3,0-0.3v0.3c-0.1,0.6,0,1.1-0.7,1.4c-0.1,0.1-0.3,0.4-0.4,0.7l-1.7,4.2c-0.6,0.6-0.7,1.1-1,1.8
 		h0.4c-0.1,0.1-0.3,0.4-0.4,0.6v0.1c-0.3,0.1-0.4,0.4-0.6,0.7h0.1c-0.3,0.3-0.4,0.6-0.6,0.8c-5.3,8-11.9,14.6-20,19.9
@@ -431,11 +334,8 @@
 		c0,0.1,0,0.3,0,0.4l0.3-0.4c0,0-0.1,0-0.3,0v-0.3c0.1,0,0.3,0.1,0.4,0.3c0.1-0.3,0.4-0.7,0.7-1c-0.4,0.1-0.8,0.3-1.1,0.7
 		C333.9,130.5,333.7,130.5,333.7,130.6z M335.7,129.2c0.4-0.1,0.7-0.3,1-0.7C336.3,128.7,336,129,335.7,129.2z M338.6,129.7
 		c-0.4,0-0.8,0.3-1,0.6C338.1,130.2,338.4,129.9,338.6,129.7z M340.2,128.5c-0.4,0.1-0.7,0.4-1,0.7
-		C339.6,129.1,339.9,129,340.2,128.5z M341.3,127.8c-0.4,0.1-0.7,0.4-1,0.7C340.7,128.4,341,128.1,341.3,127.8z"
-							></path>
-							<path
-								class="st0"
-								d="M422.6,114c-0.1,0-0.3,0.1-0.4,0.3c-1.4,0.7-2.7,1.4-4.1,2.2c-2.4,1.8-5.2,3.5-7.7,5.2
+		C339.6,129.1,339.9,129,340.2,128.5z M341.3,127.8c-0.4,0.1-0.7,0.4-1,0.7C340.7,128.4,341,128.1,341.3,127.8z"></path>
+	<path class="st0" d="M422.6,114c-0.1,0-0.3,0.1-0.4,0.3c-1.4,0.7-2.7,1.4-4.1,2.2c-2.4,1.8-5.2,3.5-7.7,5.2
 		c-4.5,3.2-9,6.6-13.3,9.9c-2.5,1.8-4.9,3.6-7.4,5c-1,0.6-1.8,1.1-3.1,1.1c-1.4,0.1-2.8-0.1-4.1-1.4c-0.6-0.4-1-0.7-1.4-1.1
 		c-1.1-1-1.7-2-2-3.2c-0.3-2.1-0.1-4.2,0.3-6.2c0.4-2.9,1-6.2,1.3-9.1c0.1-0.4,0.1-1,0-1.3c0-0.3-0.1-0.4-0.3-0.4
 		c-0.4,0-0.7,0.1-1,0.3l-2.4,1.5c-1.8,1.4-3.6,2.7-5.3,4.2c-3.8,2.9-7.1,6.3-10.5,9.8c-1.1,1.3-2.2,2.5-3.4,3.6
@@ -520,11 +420,8 @@
 		 M380.4,74.6c0.4-0.3,0.4-0.8,0.4-1.4c0.3-0.1,0.4-0.6,0.4-1c1.1-1,1.4-2.5,1.8-3.9c0.4-0.1,0.4-0.6,0.4-0.8
 		c-0.3,0.1-0.6,0.4-0.4,0.8c-0.8,1.1-1.4,2.5-1.8,3.9c-0.3,0.3-0.4,0.7-0.4,1C380.5,73.5,380.2,73.9,380.4,74.6z M380.5,77.4
 		c-0.1-0.1-0.1-0.1-0.1-0.3C380.5,77.3,380.5,77.3,380.5,77.4z M385.8,65.5h-0.4C385.5,65.4,385.7,65.4,385.8,65.5z M385.7,65.4
-		v-0.3c0.1,0.1,0.1,0.3,0.1,0.4C385.8,65.4,385.7,65.4,385.7,65.4z"
-							></path>
-							<path
-								class="st0"
-								d="M465.3,112.7c-3.5,1.3-6.7,3.2-9.8,5.3c-1.4,1-2.9,1.8-4.3,2.7c-2.5,2-5.5,3.5-8.1,5.3
+		v-0.3c0.1,0.1,0.1,0.3,0.1,0.4C385.8,65.4,385.7,65.4,385.7,65.4z"></path>
+	<path class="st0" d="M465.3,112.7c-3.5,1.3-6.7,3.2-9.8,5.3c-1.4,1-2.9,1.8-4.3,2.7c-2.5,2-5.5,3.5-8.1,5.3
 		c-2.4,1.8-4.9,3.5-7.3,5.5c-1.1,0.8-2.2,1.8-3.4,2.8h-0.1c-1.7,1.3-3.4,2.4-5,3.5c-2.8,2-5.7,3.6-8.7,5.2c-1.7,0.8-3.4,1.4-5.2,1.5
 		c-2.2,0.1-4.1-0.4-5.6-2c-2.1-2.2-2.8-4.9-2.2-8.1c0.6-3.8,2-7.3,3.6-10.8c1.4-2.9,3.2-5.7,5.2-8.5c0.3-0.4,0.6-0.8,0.7-1.4
 		c0.6-1.4,1.5-2.5,2.8-3.4c0.8-0.6,1.5-1.3,2.1-2.1c1.7-1.8,3.6-3.4,5.6-4.9c1-0.6,2.1-1.1,3.1-1.5c1.7-0.6,3.1-0.4,4.3,0.8
@@ -572,11 +469,8 @@
 		C442.9,122.9,442.9,122.9,442.9,122.8z M448.3,119.3l0.3,0.3c-0.1,0-0.3,0-0.4,0C448.3,119.4,448.3,119.4,448.3,119.3z
 		 M458.5,112.9c0.3,0,0.6,0,0.7-0.3L458.5,112.9z M459.3,112.6c0.1,0,0.4-0.1,0.6-0.3C459.7,112.3,459.5,112.3,459.3,112.6z
 		 M460,112.2h0.3l0.1-0.1c0-0.1-0.1-0.1-0.3-0.1C460.2,112,460,112.2,460,112.2z M462.5,113c-0.1,0-0.4,0-0.6,0.3
-		C462.1,113.1,462.4,113,462.5,113z"
-							></path>
-							<path
-								class="st0"
-								d="M499.2,100v0.3c-0.4,0.4-0.7,0.7-1.1,1.1c-1.1,1-2.4,2-3.6,2.9v0.1c-1,1.7-2.7,2.7-3.8,4.1
+		C462.1,113.1,462.4,113,462.5,113z"></path>
+	<path class="st0" d="M499.2,100v0.3c-0.4,0.4-0.7,0.7-1.1,1.1c-1.1,1-2.4,2-3.6,2.9v0.1c-1,1.7-2.7,2.7-3.8,4.1
 		c-0.7,0.7-1.3,1.4-1.8,2.2c-0.4,0.6-0.8,1-1.3,1.3v0.6c0-0.1-0.1-0.3-0.1-0.6c-0.1,0.3-0.3,0.4-0.3,0.7c-0.4,0.3-0.7,0.4-1,0.7
 		c-1.1,1.3-2.2,2.5-3.1,3.8c-0.3,0.4-0.6,0.7-0.7,1c-0.4,0.3-0.7,0.6-0.8,1c-0.4,0.1-0.6,0.4-0.6,0.8c-0.1,0.1-0.3,0.3-0.4,0.3
 		c0,0.3-0.1,0.4-0.1,0.7v-0.7c-0.1,0.3-0.3,0.4-0.4,0.7c-0.6,0.7-1.1,1.4-1.8,2.1l-0.4,0.8c0.1-0.1,0.3-0.1,0.4-0.3
@@ -618,11 +512,8 @@
 		c0-0.1,0.1-0.1,0.3-0.3c0.7-0.3,1.3-0.8,1.7-1.5c1-1.1,1-1.1,1.1-1.8c-1.3,0.7-2.9,2.4-4.8,4.5c-0.8,0.8-1.8,1.7-2.4,2.8
 		c-0.4,0.4-0.8,0.7-1.1,1.1l-1.1,1.3c-0.6,0.3-0.8,0.7-1,1.3c-0.6,0.3-1,0.7-1.1,1.3c-0.4,0.1-0.7,0.6-0.7,1c-0.6,0.1-1,0.6-1.3,1.1
 		c-1,1.1-2.1,2.1-2.8,3.4c-0.4,0.3-0.7,0.6-0.7,1L475.8,120.3z M476.8,125.5c0-0.1,0-0.4,0.1-0.6C477,125,477,125.3,476.8,125.5z
-		 M489.3,105.3c0,0.1,0,0.4-0.1,0.6v-0.4C489.1,105.4,489.3,105.4,489.3,105.3z"
-							></path>
-							<path
-								class="st0"
-								d="M486.3,156.5c0.1,0,0.3,0.1,0.4,0.1c0,0.1-0.1,0.3-0.1,0.3c-0.1,0.1-0.3,0.1-0.3,0.1h-0.1c0-0.1-0.1-0.3,0-0.3
+		 M489.3,105.3c0,0.1,0,0.4-0.1,0.6v-0.4C489.1,105.4,489.3,105.4,489.3,105.3z"></path>
+	<path class="st0" d="M486.3,156.5c0.1,0,0.3,0.1,0.4,0.1c0,0.1-0.1,0.3-0.1,0.3c-0.1,0.1-0.3,0.1-0.3,0.1h-0.1c0-0.1-0.1-0.3,0-0.3
 		C486.2,156.7,486.3,156.5,486.3,156.5z M707,161.6c-0.1,0.1-0.3,0.1-0.3,0.1c-1-0.1-2-0.1-3.1-0.3c-0.8,0-1.7-0.1-2.7-0.1
 		c-0.1,0-0.3-0.3-0.6-0.3c-2.5-0.3-5-0.7-7.7-0.7h-1.1c-0.1-0.1-0.4-0.3-0.6-0.3l-6.4-0.4c-0.4,0-1,0.3-1.5,0.4v-0.1h-3.6
 		c0-0.1,0-0.1,0-0.3h2.4c-0.4-0.4-1-0.3-1.4-0.3c-0.4-0.1-1,0-1.5-0.1h-1.4c-1.8-0.4-3.6-0.4-5.5,0c-0.4,0.1-0.8,0.1-1.3,0.1
@@ -735,11 +626,8 @@
 		c0.1-0.6,0.3-1,0.4-1.4v1.4H618.8z M624.2,20.5c0.4-0.6,0.4-0.6,0.3-1.3C624.4,19.8,624.4,20,624.2,20.5z M624.5,26.2v0.1V26.2z
 		 M624.7,26.8c0-0.1-0.1-0.3-0.1-0.4h0.4L624.7,26.8z M626.6,14.3c0.1,0,0.1,0.1,0.1,0.1v0.3h-0.1V14.3z M669.9,158.6
 		c-0.7,0-1.4,0-2,0c-1.3,0-1.3,0-2.1,0.3h1c1,0,2.1,0,3.1,0V158.6z M679.1,157.8l-0.1-0.1v0.1H679.1z M682.3,158.1c0,0,0,0-0.1,0
-		v0.1c0.1,0,0.1,0,0.1,0V158.1z M692.6,158.8h-0.8v0.1c0.1,0.1,0.4,0.1,0.7,0.1C692.4,158.9,692.6,158.9,692.6,158.8z"
-							></path>
-							<path
-								class="st0"
-								d="M673.7,114.1h0.7c-0.1,0.3-0.4,0.6-0.7,0.7c-0.6,0.4-1.1,0.7-1.8,1.1c-2.8,1.3-5.5,2.9-8.1,4.5l-1.8,1
+		v0.1c0.1,0,0.1,0,0.1,0V158.1z M692.6,158.8h-0.8v0.1c0.1,0.1,0.4,0.1,0.7,0.1C692.4,158.9,692.6,158.9,692.6,158.8z"></path>
+	<path class="st0" d="M673.7,114.1h0.7c-0.1,0.3-0.4,0.6-0.7,0.7c-0.6,0.4-1.1,0.7-1.8,1.1c-2.8,1.3-5.5,2.9-8.1,4.5l-1.8,1
 		c-2.7,1.7-5.5,3.2-8.1,4.9c-1.7,1-3.2,1.8-4.9,2.7c-1,0.3-1.8,0.7-2.8,0.8c-2.2,0.6-4.1,0-5.5-1.8c-0.4-0.6-0.8-1-1.1-1.5
 		c-0.7-1.1-1.1-2.1-0.7-3.5c0.4-1.7,1-3.4,1.8-4.9l0.8-2.2c0.1-0.4-0.1-0.7-0.7-0.6c-0.4,0.1-1,0.3-1.5,0.6c-2.1,1-4.2,2.1-6.3,3.2
 		c-1.1,0.8-2.2,1.5-3.2,2.1c-0.3,0.1-0.6,0.4-0.7,0.6c-0.7,0.4-1.4,1-2.1,1.5h0.1c-2.2,1.8-4.5,3.6-6.9,5.3
@@ -770,11 +658,8 @@
 		c0,0-0.3,0-0.4,0.1C662.5,120,662.6,119.9,662.6,119.9z M664.3,118.9c-0.1,0.1-0.4,0.1-0.6,0.3C664,119.2,664.1,119,664.3,118.9z
 		 M664.8,118.7c-0.1,0-0.4,0-0.4,0.1C664.4,118.9,664.7,118.7,664.8,118.7z M667.6,117.1c-0.3,0-0.4,0.1-0.6,0.3
 		c-0.7,0.1-1.1,0.4-1.5,1c0.6-0.3,1.1-0.3,1.5-1C667.2,117.2,667.4,117.2,667.6,117.1z M670.3,115.5c-0.1,0-0.1,0.1-0.3,0.1
-		l-0.1,0.1c0,0.1,0.1,0.1,0.3,0C670.2,115.7,670.2,115.7,670.3,115.5z"
-							></path>
-							<path
-								class="st0"
-								d="M742.5,26.1c-0.3,0.8-0.7,1.5-1.1,2.2v0.1H741c0,0,0,0.1,0,0.3c-0.7,0.7-1.3,1.5-1.8,2.5
+		l-0.1,0.1c0,0.1,0.1,0.1,0.3,0C670.2,115.7,670.2,115.7,670.3,115.5z"></path>
+	<path class="st0" d="M742.5,26.1c-0.3,0.8-0.7,1.5-1.1,2.2v0.1H741c0,0,0,0.1,0,0.3c-0.7,0.7-1.3,1.5-1.8,2.5
 		c-0.3,0.6-0.6,1.1-1,1.7h0.1c-0.1,0.3-0.4,0.4-0.4,0.7c-0.3,1-0.8,1.7-1.5,2.5c-0.3,0.1-0.4,0.6-0.6,1v0.4c-0.6,0.4-1,0.8-1.1,1.5
 		c-0.4,1.3-1.3,2.2-2,3.4c0,0.1,0.1,0.1,0.1,0.3h-0.1c-0.1,0.4-0.3,0.7-0.6,1c-1.3,1.5-2.1,3.4-2.9,5c-0.1,0-0.1,0.1-0.1,0.3
 		c-0.4,0.6-0.7,1.1-0.8,1.8c-0.7,0.6-1,1.5-1.1,2.4l-0.4,0.4c-0.1,0.1-0.3,0.4-0.3,0.7c0,0.1,0,0.3,0.1,0.3h-0.1
@@ -857,11 +742,8 @@
 		c-0.3,0.7-0.7,1.3-1.5,1.7L720.7,116.8z M721,116.4h0.4c-0.1,0.1-0.3,0.3-0.3,0.3S721.1,116.5,721,116.4z M721,116.6
 		c0.1,0,0.1,0,0.1,0v0.1H721V116.6z M721.4,116.4v-0.3c0,0,0.1,0,0.3,0C721.5,116.1,721.5,116.2,721.4,116.4z M721.7,115.9v-0.3
 		c0.1,0,0.1,0,0.3,0C722,115.8,721.8,115.9,721.7,115.9z M722.2,112.7c1-0.6,1-0.6,1.5-1.7C723.1,111.6,722.7,112.2,722.2,112.7z
-		 M727.1,53.6h-0.4C726.9,53.5,727,53.5,727.1,53.6z M727,53.5c0-0.1,0-0.1,0.1-0.3v0.4C727.1,53.5,727,53.5,727,53.5z"
-							></path>
-							<path
-								class="st0"
-								d="M760.4,111c-0.3,0.3-0.4-0.1-0.8-0.1c-0.1,0-0.1,0-0.3-0.1c-1.1-1.1-2-1.4-3.1-1c-0.8,0.3-1.5,0.4-2.2,0.7
+		 M727.1,53.6h-0.4C726.9,53.5,727,53.5,727.1,53.6z M727,53.5c0-0.1,0-0.1,0.1-0.3v0.4C727.1,53.5,727,53.5,727,53.5z"></path>
+	<path class="st0" d="M760.4,111c-0.3,0.3-0.4-0.1-0.8-0.1c-0.1,0-0.1,0-0.3-0.1c-1.1-1.1-2-1.4-3.1-1c-0.8,0.3-1.5,0.4-2.2,0.7
 		c-2.2,0.8-4.3,2-6.4,2.9c-1.1,0.6-2.1,1.3-3.1,2c-0.4,0.3-1,0.6-1.5,0.8c-0.3,0.1-0.7,0.1-0.8,0.6c-0.1,0.6-1,0.8-1.5,1.3l-0.3,0.3
 		c0,0.1,0,0.1,0,0.1c-0.4,0.1-0.8,0.4-1.3,0.6v0.1c-0.1,0.1-0.3,0.1-0.3,0.3c0-0.1-0.1-0.1-0.1-0.3V119c-0.3,0.1-0.7,0.3-0.8,0.7
 		c-0.3,0.3-0.7,0.4-1,0.7c-0.3,0.3-0.7,0.4-1,0.8l-0.3,0.3c-0.4,0.1-0.7,0.4-1,0.7h0.1c-0.1,0.1-0.3,0.3-0.3,0.4
@@ -911,11 +793,8 @@
 		c0,0,0.1,0.1,0.1,0.3h-0.7c0,0,0-0.1,0-0.3H736.9z M737.6,115.2c0,0.1,0,0.3,0,0.4h-0.7L737.6,115.2z M737.8,119.7v0.4
 		C737.8,119.9,737.6,119.9,737.8,119.7z M737.9,120.3l-0.1-0.1C737.8,120.1,737.9,120.1,737.9,120.3z M739.7,113.8
 		c0.1,0.1,0.1,0.3,0.1,0.4c-0.1-0.1-0.4-0.1-0.6-0.1V114C739.4,114,739.6,114,739.7,113.8z M749.1,108.5c0.6,0,1-0.3,0.8-0.3
-		C749.5,108.2,749.2,108.4,749.1,108.5z"
-							></path>
-							<path
-								class="st0"
-								d="M809.3,112.7c-3.5,1.3-6.7,3.2-9.8,5.3c-1.4,1-2.9,1.8-4.3,2.7c-2.5,2-5.5,3.5-8.1,5.3
+		C749.5,108.2,749.2,108.4,749.1,108.5z"></path>
+	<path class="st0" d="M809.3,112.7c-3.5,1.3-6.7,3.2-9.8,5.3c-1.4,1-2.9,1.8-4.3,2.7c-2.5,2-5.5,3.5-8.1,5.3
 		c-2.4,1.8-4.9,3.5-7.3,5.5c-1.1,0.8-2.2,1.8-3.4,2.8h-0.1c-1.7,1.3-3.4,2.4-5,3.5c-2.8,2-5.7,3.6-8.7,5.2c-1.7,0.8-3.4,1.4-5.2,1.5
 		c-2.2,0.1-4.1-0.4-5.6-2c-2.1-2.2-2.8-4.9-2.2-8.1c0.6-3.8,2-7.3,3.6-10.8c1.4-2.9,3.2-5.7,5.2-8.5c0.3-0.4,0.6-0.8,0.7-1.4
 		c0.6-1.4,1.5-2.5,2.8-3.4c0.8-0.6,1.5-1.3,2.1-2.1c1.7-1.8,3.6-3.4,5.6-4.9c1-0.6,2.1-1.1,3.1-1.5c1.7-0.6,3.1-0.4,4.3,0.8
@@ -963,11 +842,8 @@
 		C786.9,122.9,786.9,122.9,786.9,122.8z M792.2,119.3l0.3,0.3c-0.1,0-0.3,0-0.4,0C792.2,119.4,792.2,119.4,792.2,119.3z
 		 M802.4,112.9c0.3,0,0.6,0,0.7-0.3L802.4,112.9z M803.3,112.6c0.1,0,0.4-0.1,0.6-0.3C803.7,112.3,803.4,112.3,803.3,112.6z
 		 M804,112.2h0.3l0.1-0.1c0-0.1-0.1-0.1-0.3-0.1C804.1,112,804,112.2,804,112.2z M806.5,113c-0.1,0-0.4,0-0.6,0.3
-		C806.1,113.1,806.4,113,806.5,113z"
-							></path>
-							<path
-								class="st0"
-								d="M870.6,113.6h-0.3c-1.4-0.4-2.7,0-3.8,0.4c-1.3,0.4-2.4,1-3.5,1.5c-5.3,2.7-10.4,5.7-15.3,9
+		C806.1,113.1,806.4,113,806.5,113z"></path>
+	<path class="st0" d="M870.6,113.6h-0.3c-1.4-0.4-2.7,0-3.8,0.4c-1.3,0.4-2.4,1-3.5,1.5c-5.3,2.7-10.4,5.7-15.3,9
 		c-0.7,0.4-1.3,0.7-1.8,1.1c-1,0.6-1.7,1.4-2.2,2.4l-0.3,0.7v-0.1c0,0.3-0.1,0.6-0.1,0.7c-0.4,0.1-0.4,0.4-0.4,0.8
 		c0,0.1,0.1,0.1,0.3,0.1c-0.1,0.1-0.1,0.3-0.1,0.4c-0.1-0.1-0.1-0.3-0.1-0.6v0.1v-0.1l-0.3,0.7c-0.1,0.4-0.4,0.7-0.7,1.1
 		c-0.3,0.7-0.7,1.4-1,2.1c-0.1,0.3-0.1,0.7-0.3,1c-0.7,0.7-1,1.5-1.1,2.5c-0.3,0.1-0.4,0.6-0.4,0.8c-0.8,0.8-1.4,1.8-1.5,3.1
@@ -1060,473 +936,160 @@
 		 M834.2,148.4c0-0.3,0-0.6-0.1-0.7c0.1,0,0.3,0.1,0.4,0.1C834.4,148,834.2,148.3,834.2,148.4z M834.9,147.3c0-0.3,0-0.6,0-0.8
 		c0.1,0.1,0.1,0.1,0.3,0.1L834.9,147.3z M835.6,142.4l-0.1,0.1h0.1V142.4z M842.9,130.8c0,0,0-0.1,0.1-0.1v0.1H842.9z M843.3,129.2
 		h0.3c0,0.1,0,0.3-0.1,0.6C843.5,129.5,843.3,129.4,843.3,129.2z M843.5,128.7h0.4c-0.1,0.1-0.1,0.3-0.3,0.6
-		C843.6,129.1,843.6,129,843.5,128.7z M843.7,128.5V128c0,0.3,0,0.4,0.1,0.7L843.7,128.5z"
-							></path>
-						</g>
-					</svg>
-					<h1 class="logo-descr" data-text="session drummer">
-						session drummer
-					</h1>
-				</div>
-			</section>
-			<div class="social-navigation">
-				<span class="hand">right</span>
-				<div class="decorative-line"></div>
-				<nav>
-					<ul>
-						<li>
-							<a
-								target="_blank"
-								class="social-icon vk"
-								href="https://vk.com/kudasheff"
-								><span>Вконтакте</span></a
-							>
-						</li>
-						<li>
-							<a
-								target="_blank"
-								class="social-icon instagram"
-								href="https://www.instagram.com/kudashev_andrey/"
-								><span>Instagram</span></a
-							>
-						</li>
-						<li>
-							<a
-								target="_blank"
-								class="social-icon youtube"
-								href="https://www.youtube.com/user/andrrrey2dis/videos"
-								><span>Youtube</span></a
-							>
-						</li>
-						<li>
-							<a
-								target="_blank"
-								class="social-icon facebook"
-								href="https://www.facebook.com/andrey.kudashev.58"
-								><span>Facebook</span></a
-							>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<article id="me" class="aboutme">
-				<div class="photo-part"><img src="img/about-me.JPG" /></div>
-				<div class="text-part">
-					<h2>Обо мне</h2>
-					<p>
-						Привет! Меня зовут Андрей Кудашев. Упорно занимаюсь и
-						играю на барабанах с пятнадцати лет. Для меня игра на
-						них - это самый настоящий управляемый поток сознания, а
-						широкий диапазон частот и особенная красота этого
-						инструмента вызывают желание играть снова и снова! Мне
-						нравится работать в стилях поп, рок и хип-хоп. За
-						пятнадцать лет выступлений с большим количеством
-						коллективов получил полезный опыт работы на разных
-						площадках - от баров до стадионов. Также немалая часть
-						музыкальной работы - это запись барабанов на студии. При
-						студийной работе стараюсь учитывать все нюансы
-						записываемого трека, сделать запись четко, за
-						минимальное количество дублей. Считаю, что главное в
-						работе - уделять внимание каждому этапу создания музыки
-						от репетиции до выступления.
-					</p>
-				</div>
-			</article>
-			<div class="wrap">
-				<div class="video">
-					<div class="video-item video-item1">
-						<div class="video-content">
-							<span
-								>Juicy J, Wiz Khalifa & Ty Dolla $ign — Shell
-								Shocked (OST Ninja turtles)<br />
-								Drum cover by Andrey Kudashev
-							</span>
-							<a
-								class="video-button"
-								href="https://www.youtube.com/embed/-cYK7PeAa2A"
-								>Смотреть видео</a
-							>
-							<div class="overlay" id="video1"></div>
-						</div>
-					</div>
-					<div class="video-item video-item2">
-						<div class="video-content">
-							<span
-								>Время и cтекло — Имя 505<br />
-								Drum cover by Andrey Kudashev
-							</span>
-							<a
-								class="video-button"
-								href="https://www.youtube.com/embed/OCr8p0cxJJ0"
-								>Смотреть видео</a
-							>
-							<div class="overlay" id="video2"></div>
-						</div>
-					</div>
-					<div class="video-item video-item3">
-						<div class="video-content">
-							<span
-								>Скриптонит — Цепи (ft. 104)<br />
-								Drum cover by Andrey Kudashev
-							</span>
-							<a
-								class="video-button"
-								href="https://www.youtube.com/embed/61KRusDocyA"
-								>Смотреть видео</a
-							>
-							<div class="overlay" id="video3"></div>
-						</div>
-					</div>
-					<div class="video-item video-item4">
-						<div class="video-content">
-							<span
-								>Skillet — Monster<br />
-								Drum cover by Andrey Kudashev
-							</span>
-							<a
-								class="video-button"
-								href="https://www.youtube.com/embed/a_O5cNjp2FQ"
-								>Смотреть видео</a
-							>
-							<div class="overlay" id="video4"></div>
-						</div>
-					</div>
-				</div>
-				<div class="video-popup">
-					<div class="close-button"></div>
-					<iframe
-						width="560"
-						height="315"
-						src=""
-						frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen=""
-					></iframe>
-				</div>
-			</div>
-			<section id="training" class="training">
-				<div class="text-part">
-					<h2>Обучение</h2>
-					<p class="text-features">
-						Имею 6-летний опыт обучения игры на инструменте. Меня
-						зовут Андрей Кудашев, играю на барабанах больше 15 лет,
-						преподаю. Если у тебя остались вопросы, ты можешь
-						оставить мне свои контакты, я перезвоню. Либо написать
-						мне в любой мессенджер.
-					</p>
-					<ul>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>100% практика</p>
-						</li>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>Занятия с нуля</p>
-						</li>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>Постановка рук</p>
-						</li>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>Постановка ударов</p>
-						</li>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>Правильная посадка</p>
-						</li>
-						<li>
-							<img width="70" src="/img/drums.svg" />
-							<p>Гибкое расписание</p>
-						</li>
-					</ul>
-				</div>
-			</section>
+		C843.6,129.1,843.6,129,843.5,128.7z M843.7,128.5V128c0,0.3,0,0.4,0.1,0.7L843.7,128.5z"></path>
+</g>
+</svg>
+                <h1 class="logo-descr" data-text="session drummer">session drummer</h1>
+            </div>
 
-			<article id="gallery" class="gallery  variable">
-				<a class="gallery-link  single-item" href="img/gallery-1.jpg">
-					<img
-						data-num="1"
-						height="1000"
-						src="img/gallery-1.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-2.jpg">
-					<img
-						data-num="2"
-						height="1400"
-						src="img/gallery-2.jpg"
-						width="1200"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-3.jpg">
-					<img
-						data-num="3"
-						height="1200"
-						src="img/gallery-3.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-1.jpg">
-					<img
-						data-num="4"
-						height="1000"
-						src="img/gallery-1.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-2.jpg">
-					<img
-						data-num="5"
-						height="1400"
-						src="img/gallery-2.jpg"
-						width="1200"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-3.jpg">
-					<img
-						data-num="6"
-						height="1200"
-						src="img/gallery-3.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-1.jpg">
-					<img
-						data-num="7"
-						height="1000"
-						src="img/gallery-1.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-2.jpg">
-					<img
-						data-num="8"
-						height="1400"
-						src="img/gallery-2.jpg"
-						width="1200"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-3.jpg">
-					<img
-						data-num="9"
-						height="1200"
-						src="img/gallery-3.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-1.jpg">
-					<img
-						data-num="10"
-						height="1000"
-						src="img/gallery-1.jpg"
-						width="1400"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-2.jpg">
-					<img
-						data-num="11"
-						height="1400"
-						src="img/gallery-2.jpg"
-						width="1200"
-					/>
-				</a>
-				<a class="gallery-link single-item" href="img/gallery-3.jpg">
-					<img
-						data-num="12"
-						height="1200"
-						src="img/gallery-3.jpg"
-						width="1400"
-					/>
-				</a>
-			</article>
-			<div class="gallery-popup variable slider ">
-				<!--
-					<div id="arrow-left-gallery" class="arrow arrow-left"></div>
-					<button class="close-button"></button>
-					<img src="#" alt="" />
-					<div
-						id="arrow-right-gallery"
-						class="arrow arrow-right"
-					></div>
-				-->
-				<div>
-					<img height="1000" src="img/gallery-1.jpg" width="1400" />
-				</div>
-				<div>
-					<img height="1000" src="img/gallery-1.jpg" width="1400" />
-				</div>
-				<div>
-					<img height="1000" src="img/gallery-1.jpg" width="1400" />
-				</div>
-				<div>
-					<img height="1000" src="img/gallery-1.jpg" width="1400" />
-				</div>
-				<div>
-					<img height="1000" src="img/gallery-1.jpg" width="1400" />
-				</div>
-			</div>
-
-			<!--
-			<article id="gallery" class="variable slider gallery">
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-1.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-2.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-3.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-1.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-2.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-3.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-1.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-2.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-3.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-1.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-2.jpg" />
-				</div>
-				<div class="gallery-item gallery-link">
-					<img src="img/gallery-3.jpg" />
-				</div>
-
-				<div class="gallery-popup">
-					<div id="arrow-left-gallery" class="arrow arrow-left"></div>
-					<button class="close-button"></button>
-					<img src="#" alt="" />
-					<div
-						id="arrow-right-gallery"
-						class="arrow arrow-right"
-					></div>
-				</div>
-			
-			</article>-->
-			<section>
-				<div id="contact" class="contacts">
-					<div class="contact-info">
-						<h2>Контакты</h2>
-						<p>
-							Меня зовут Андрей Кудашев, играю на барабанах больше
-							15 лет, преподаю. Если у тебя остались вопросы, ты
-							можешь оставить мне свои контакты, я перезвоню. Либо
-							написать мне в любой мессенджер
-							<span>+7(999)529-23-20</span>.
-						</p>
-					</div>
-					<div class="contact-form">
-						<form>
-							<input
-								type="text"
-								required=""
-								placeholder="Ваше имя*"
-							/>
-							<input
-								type="phone"
-								required=""
-								placeholder="Ваш номер*"
-							/>
-							<input type="textarea" placeholder="Сообщение" />
-							<button class="button" type="submit">
-								Отправить
-							</button>
-						</form>
-					</div>
-				</div>
-			</section>
-		</div>
-		<!----------------------------------------->
-
-		<script
-			src="https://code.jquery.com/jquery-2.2.0.min.js"
-			type="text/javascript"
-		></script>
-		<script
-			src="./slick-carousel/slick/slick.js"
-			type="text/javascript"
-			charset="utf-8"
-		></script>
-		<!--	
-		<script type="text/javascript">
-			$(document).on("ready", function() {
-				$(".vertical-center-4").slick({
-					dots: true,
-					vertical: true,
-					centerMode: true,
-					slidesToShow: 4,
-					slidesToScroll: 2
-				});
-				$(".vertical-center-3").slick({
-					dots: true,
-					vertical: true,
-					centerMode: true,
-					slidesToShow: 3,
-					slidesToScroll: 3
-				});
-				$(".vertical-center-2").slick({
-					dots: true,
-					vertical: true,
-					centerMode: true,
-					slidesToShow: 2,
-					slidesToScroll: 2
-				});
-				$(".vertical-center").slick({
-					dots: true,
-					vertical: true,
-					centerMode: true
-				});
-				$(".vertical").slick({
-					dots: true,
-					vertical: true,
-					slidesToShow: 3,
-					slidesToScroll: 3
-				});
-				$(".regular").slick({
-					dots: true,
-					infinite: true,
-					slidesToShow: 3,
-					slidesToScroll: 3
-				});
-				$(".center").slick({
-					dots: true,
-					infinite: true,
-					centerMode: true,
-					slidesToShow: 5,
-					slidesToScroll: 3
-				});
-				$(".variable").slick({
-					dots: true,
-					infinite: true,
-					variableWidth: true
-				});
-				$(".lazy").slick({
-					lazyLoad: "ondemand", // ondemand progressive anticipated
-					infinite: true
-				});
-			});
-		</script>
-
-		------------------------->
-		<!--	<script type="text/javascript">
-			$(".single-item").slick();
-		</script>
-		    q -->
-		<script src="js/main.min.js" type="text/javascript"></script>
-	</body>
+    </section>
+    <div class="social-navigation">
+        <span class="hand">right</span>
+        <div class="decorative-line"></div>
+        <nav>
+            <ul>
+                <li><a target="_blank" class="social-icon vk" href="https://vk.com/kudasheff"><span>Вконтакте</span></a></li>
+                <li><a target="_blank" class="social-icon instagram" href="https://www.instagram.com/kudashev_andrey/"><span>Instagram</span></a></li>
+                <li><a target="_blank" class="social-icon youtube" href="https://www.youtube.com/user/andrrrey2dis/videos"><span>Youtube</span></a></li>
+                <li><a target="_blank" class="social-icon facebook" href="https://www.facebook.com/andrey.kudashev.58"><span>Facebook</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <article id="me" class="aboutme">
+        <div class="photo-part"><img src="img/about-me.JPG"></div>
+        <div class="text-part">
+            <h2>Обо мне</h2>
+            <p>Привет! Меня зовут Андрей Кудашев. Упорно занимаюсь и играю на барабанах с пятнадцати лет.
+                Для меня игра на них - это самый настоящий управляемый поток сознания, а широкий диапазон частот и особенная красота этого инструмента вызывают желание играть снова и снова!
+                Мне нравится работать в стилях поп, рок и хип-хоп. За пятнадцать лет выступлений с большим количеством коллективов получил полезный опыт работы на разных площадках - от баров до стадионов.
+                Также немалая часть музыкальной работы - это запись барабанов на студии.
+                При студийной работе стараюсь учитывать все нюансы записываемого трека, сделать запись четко, за минимальное количество дублей.
+                Считаю, что главное в работе - уделять внимание каждому этапу создания музыки от репетиции до выступления.</p>
+        </div>
+    </article>
+    <div class="wrap">
+        <div class="video">
+            <div class="video-item video-item1">
+                <div class="video-content">
+                    <span>Juicy J, Wiz Khalifa & Ty Dolla $ign — Shell Shocked (OST Ninja turtles)<br>
+                        Drum cover by Andrey Kudashev
+                    </span>
+                    <a class="video-button" href="https://www.youtube.com/embed/-cYK7PeAa2A">Смотреть видео</a>
+                    <div class="overlay" id="video1"></div>
+                </div>
+            </div>
+            <div class="video-item video-item2">
+                <div class="video-content">
+                    <span>Время и cтекло — Имя 505<br>
+                        Drum cover by Andrey Kudashev
+                    </span>
+                    <a class="video-button" href="https://www.youtube.com/embed/OCr8p0cxJJ0">Смотреть видео</a>
+                    <div class="overlay" id="video2"></div>
+                </div>
+            </div>
+            <div class="video-item video-item3">
+                <div class="video-content">
+                    <span>Скриптонит — Цепи (ft. 104)<br>
+                        Drum cover by Andrey Kudashev
+                    </span>
+                    <a class="video-button" href="https://www.youtube.com/embed/61KRusDocyA">Смотреть видео</a>
+                    <div class="overlay" id="video3"></div>
+                </div>
+            </div>
+            <div class="video-item video-item4">
+                <div class="video-content">
+                    <span>Skillet — Monster<br>
+                        Drum cover by Andrey Kudashev
+                    </span>
+                    <a class="video-button" href="https://www.youtube.com/embed/a_O5cNjp2FQ">Смотреть видео</a>
+                    <div class="overlay" id="video4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="video-popup">
+            <div class="close-button"></div>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <section id="training" class="training">
+        <div class="text-part">
+            <h2>Обучение</h2>
+            <p class="text-features">Имею 6-летний опыт обучения игры на инструменте. Меня зовут Андрей Кудашев, играю на барабанах больше 15 лет, преподаю.
+                Если у тебя остались вопросы, ты можешь оставить мне свои контакты, я перезвоню.
+                Либо написать мне в любой мессенджер.</p>
+            <ul>
+                <li><img width="70" src="/img/drums.svg"><p>100% практика</p></li>
+                <li><img width="70" src="/img/drums.svg"><p>Занятия с нуля</p></li>
+                <li><img width="70" src="/img/drums.svg"><p>Постановка рук</p></li>
+                <li><img width="70" src="/img/drums.svg"><p>Постановка ударов</p></li>
+                <li><img width="70" src="/img/drums.svg"><p>Правильная посадка</p></li>
+                <li><img width="70" src="/img/drums.svg"><p>Гибкое расписание</p></li>
+            </ul>
+        </div>
+    </section>
+    <article id="gallery" class="gallery">
+        <a class="gallery-link" href="img/gallery-1.jpg">
+            <img height="1000" src="img/gallery-1.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-2.jpg">
+            <img height="1400" src="img/gallery-2.jpg" width="1200">
+        </a>
+        <a class="gallery-link" href="img/gallery-3.jpg">
+            <img height="1200" src="img/gallery-3.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-1.jpg">
+            <img height="1000" src="img/gallery-1.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-2.jpg">
+            <img height="1400" src="img/gallery-2.jpg" width="1200">
+        </a>
+        <a class="gallery-link" href="img/gallery-3.jpg">
+            <img height="1200" src="img/gallery-3.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-1.jpg">
+            <img height="1000" src="img/gallery-1.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-2.jpg">
+            <img height="1400" src="img/gallery-2.jpg" width="1200">
+        </a>
+        <a class="gallery-link" href="img/gallery-3.jpg">
+            <img height="1200" src="img/gallery-3.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-1.jpg">
+            <img height="1000" src="img/gallery-1.jpg" width="1400">
+        </a>
+        <a class="gallery-link" href="img/gallery-2.jpg">
+            <img height="1400" src="img/gallery-2.jpg" width="1200">
+        </a>
+        <a class="gallery-link" href="img/gallery-3.jpg">
+            <img height="1200" src="img/gallery-3.jpg" width="1400">
+        </a>
+        <div class="gallery-popup">
+            <div id="arrow-left-gallery" class="arrow arrow-left"></div>
+            <button class="close-button"></button>
+            <img src="#" alt="">
+            <div id="arrow-right-gallery" class="arrow arrow-right"></div>
+        </div>
+    </article>
+    <section>
+        <div id="contact" class="contacts">
+            <div class="contact-info">
+                <h2>Контакты</h2>
+                <p>Меня зовут Андрей Кудашев, играю на барабанах больше 15 лет, преподаю.
+                Если у тебя остались вопросы, ты можешь оставить мне свои контакты, я перезвоню.
+                    Либо написать мне в любой мессенджер <span>+7(999)529-23-20</span>.</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" required="" placeholder="Ваше имя*">
+                    <input type="phone" required="" placeholder="Ваш номер*">
+                    <input type="textarea" placeholder="Сообщение">
+                    <button class="button" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="js/main.min.js" type="text/javascript"></script>
+</body>
 </html>
