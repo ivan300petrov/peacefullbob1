@@ -787,7 +787,7 @@ h3 {
   display: inline-block;
 }
 .slider-item img {
-  width: 100%;
+  width: 10%;
 }
 .arrow {
   cursor: pointer;
@@ -1081,10 +1081,7 @@ h3 {
   background-color: rgba(1, 1, 1, 0.8);
   z-index: 100;
 }
-.gallery-popup img {
-  max-width: 100%;
-  height: auto;
-}
+
 .close-button {
   height: 50px;
   width: 50px;
@@ -1120,4 +1117,12 @@ h3 {
 .close-button:hover:after {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
+}
+@keyframes moveback {
+
+to {
+transform: translateX(0px);
+
+}
+
 }
