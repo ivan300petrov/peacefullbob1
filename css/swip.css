@@ -9,6 +9,26 @@
 
 }
 */
+@media (max-width: 767px) {
+  .card {
+    width: 50%;
+  }
+  .gallery-slider{
+    width:50px;
+  max-height:150px;
+  margin-left:30px;
+
+}
+.gallery-popup {
+   background: pink;
+   padding-left:20px;
+ }
+ .squares > div{
+  width:120px;
+  height:120px;
+  margin:0px;
+}
+}
 .gallery-popup {
   background: blue;
 
