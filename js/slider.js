@@ -77,6 +77,7 @@ for (var i = 0; i < galleryItems.length; i++) {
 
         galleryPopup.style.display = "flex";
 
+});
        // console.log("galleryItemsArray=", galleryItemsArray, 'i=', i, 'galleryItemsArray[i]=', galleryItemsArray[i]);
         /*
         galleryPopupImageCenter.src = this.href;
@@ -119,7 +120,7 @@ if(startX !== 0){
 
 
     gallerySlider.scrollBy({top :   (moveX>startX? -(moveX-startX)  :(startX - moveX))  , left : 0, behavior: 'smooth'});
-console.log("move mouse=", (moveX>startX? -(moveX-startX)  :(startX - moveX)));
+//console.log("move mouse=", (moveX>startX? -(moveX-startX)  :(startX - moveX)));
 
             console.log("startX=", startX);
         }
@@ -132,12 +133,12 @@ console.log("move mouse=", (moveX>startX? -(moveX-startX)  :(startX - moveX)));
                 deltaX = endX - startX;
 
             console.log("moveXdeltaX=", deltaX);
-            if (deltaX > 50) {
+            if (deltaX > 300) {
                 
     gallerySlider.scrollBy({top :  (moveX>startX? -800  :800), left : 0, behavior: 'smooth'});
             
             console.log("moveto right=", (moveX>startX? -800  :800));
-            } else if (deltaX < -50) {
+            } else if (deltaX < -300) {
                 
     gallerySlider.scrollBy({top :  (moveX>startX? -800  :800)  , left : 0, behavior: 'smooth'});
               console.log("moveto left=", (moveX>startX? -800  :800));
@@ -159,10 +160,9 @@ startX = 0;
         // -------------------------------------
     
 
-i = i > galleryItems? galleryItems: i;
+//i = i > galleryItems? galleryItems: i;
 
 
-});
 }
 function closeWindow(obj, window) {
     obj.addEventListener("click", function close(e) {
