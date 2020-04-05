@@ -78,7 +78,7 @@ for (var i = 0; i < galleryItems.length; i++) {
         galleryPopup.style.display = "flex";
 
 });
-       // console.log("galleryItemsArray=", galleryItemsArray, 'i=', i, 'galleryItemsArray[i]=', galleryItemsArray[i]);
+  }     // console.log("galleryItemsArray=", galleryItemsArray, 'i=', i, 'galleryItemsArray[i]=', galleryItemsArray[i]);
         /*
         galleryPopupImageCenter.src = this.href;
         galleryPopupImageLeft.src = galleryItemsArray[indexLeft].href;
@@ -133,12 +133,12 @@ if(startX !== 0){
                 deltaX = endX - startX;
 
             console.log("moveXdeltaX=", deltaX);
-            if (deltaX > 300) {
+            if (deltaX > 50) {
                 
     gallerySlider.scrollBy({top :  (moveX>startX? -800  :800), left : 0, behavior: 'smooth'});
             
             console.log("moveto right=", (moveX>startX? -800  :800));
-            } else if (deltaX < -300) {
+            } else if (deltaX < -50) {
                 
     gallerySlider.scrollBy({top :  (moveX>startX? -800  :800)  , left : 0, behavior: 'smooth'});
               console.log("moveto left=", (moveX>startX? -800  :800));
@@ -163,7 +163,7 @@ startX = 0;
 //i = i > galleryItems? galleryItems: i;
 
 
-}
+
 function closeWindow(obj, window) {
     obj.addEventListener("click", function close(e) {
         e.preventDefault();

@@ -51,8 +51,8 @@ opacity: 1;
 
 
 .squares > div{
-  width:100px;
-  height:100px;
+  width:100%;
+  height:55%;
   margin:0px;
 }
 
